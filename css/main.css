@@ -1,0 +1,322 @@
+div.clear {
+	clear: both;
+}
+
+body {
+	background-color: WhiteSmoke;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* Special Fonts */
+.featurette-heading, .photoHeaderText, .contactUsText, .carousel-h6 {
+	font-family: 'Rye', cursive;
+}
+
+/*Brand Styling*/
+.navbar-brand {
+	font-family: 'Rye', cursive;
+}
+
+#wellHeaderText {
+		font-family: 'Rye', cursive;
+}
+
+html body .navbar .container .navbar-header .navbar-brand {
+    color: WhiteSmoke;
+}
+
+	html body .navbar .container .navbar-header .navbar-brand:hover {
+	    color: #E0FFFF;
+	}
+
+
+.navbar {
+	background-color: #708090;
+	/*opacity: 0.95;*/
+	border-bottom: 1px solid white;
+}
+
+.navbar .nav > li > a {
+	color: WhiteSmoke;
+	font-family: 'Rye', cursive;
+}
+
+	.navbar .nav > li > a:hover {
+		color: #E0FFFF;
+	}
+
+
+
+
+/*Button Styling*/
+.btn {
+	background-color: #708090;
+	border: 1px solid white;
+	border-radius: 0;
+	font-family: 'Rye', cursive;
+}
+
+	.btn:hover {
+		background-color: MediumPurple;
+		border: 1px solid white;
+	}
+
+	.btn:focus, .btn:active:focus, .btn.active:focus {
+		background-color: MediumPurple;
+		border: 1px solid white;
+	}
+
+
+.col-md-9 {
+	padding-left: 0;
+	/*This pushes the photo gallery to the left a bit, to line up with the Header text on the Photos page.*/
+}
+
+
+.text-muted {
+	color: #708090;
+}
+
+
+/* This centers the images in the carousel and maximizes width of photos to 100% */
+.carousel-inner .item img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#myCarousel h6 {
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#submit-button {
+	margin-bottom: 20px;
+}
+
+.featurette-image {
+	display: block;
+	margin: 0 auto;
+	border-radius: 100px;
+	max-width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+
+
+/*These stylings produce the text overlay on featurette images*/
+.imgWrapper {
+    position: relative;
+    padding: 0;
+    display: block;
+}
+
+	.imgTextOverlay {
+	    position: absolute;
+	    top: 0;
+	    color: #708090;
+	    font-family: 'Rye', cursive;
+	    font-size: 3em;
+	    background-color:rgba(255,255,255,0.8);
+	    border-radius: 100px;
+	    width: 100%;
+	    height: 100%;
+	    /*line-height: 100px;*/
+	    vertical-align: middle;
+	    text-align: center;
+	    z-index: 10;
+	    opacity: 0;
+	    padding-top: 25%;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+		.imgTextOverlay:hover {
+		    opacity:1;
+		    width: 100%;
+	    	height: 100%;
+		}
+
+		img {
+		    z-index:1;
+		}
+
+
+
+/* This centers all of the items in the row */
+.marketing .col-lg-4 {
+	text-align: center;
+}
+
+.input-xxlarge {
+	min-height: 270px;
+}
+
+
+/* Photo Styling */
+
+.thumbnailPhoto {
+	margin-bottom: 4px;
+}
+
+h1.photoHeaderText {
+	color: #708090;
+}
+
+/*Jumbotron on Contact form and well on Photo Page Styling*/
+.jumbotron, .wellPhotos {
+	background-color: #708090;
+	color: WhiteSmoke;
+}
+
+
+/* Footer Styling */
+footer p {
+	text-align: center;
+}
+
+.footerImage {
+	max-width: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* This is required to Prevent a Google Maps iframe from capturing the mouse's scrolling wheel behavior*/
+.scrolloff {
+  pointer-events: none;
+}
+
+
+
+/* Media Queries */
+
+@media all and (max-width:400px) {
+	#myCarousel {
+		padding-top: 50px;
+	}
+	#myCarousel h6 {
+		font-size: 1.25em;
+	}
+	#myCarousel p {
+		font-size: .75em;
+	}
+	.carousel-caption {
+		visibility: hidden;
+	}
+	.btn-sm {
+		visibility: visible;
+	}
+	.carousel-indicators {
+		visibility: hidden;
+	}
+	.btn-info {
+		visibility: hidden;
+	}
+	.wellPhotos {
+		margin-top: 50px;
+	}
+	.imgTextOverlay {
+		font-size: 2em;
+	}
+	.thumbnailPhoto {
+		max-width: 75px;
+	}
+	.mobileButton {
+		visibility: visible;
+		margin-top: 20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#submit-button {
+		width: 100%;
+		/*this extends the button horizontally in mobile view so that it takes up the full width of the container*/
+	}
+
+	footer {
+		background-color: #708090;
+		border-top: 2px solid #708090;
+		margin-top: 25px;
+		width: 100%;
+    background-image: none;
+    background-size: 100% 100%;
+	}
+
+}
+
+
+/* The following media queries are to ensure the Bootstrap carousel text is responsive. (it previously was not) */
+
+@media all and (min-width:401px) {
+	#myCarousel {
+		padding-top: 50px;
+	}
+	#myCarousel h6 {
+		font-size: 1.5em;
+	}
+	#myCarousel p {
+		font-size: 1em;
+	}
+	#mobileContactButton {
+		visibility: hidden;
+	}
+	.imgTextOverlay {
+		font-size: 2em;
+	}
+
+	.imgWrapper,
+	.imgTextOverlay {
+		max-width: 500px;
+	}
+
+	footer {
+		background-color: #708090;
+		border-top: 2px solid #708090;
+		margin-top: 25px;
+		width: 100%;
+    background-image: none;
+    background-size: 100% 100%;
+	}
+
+
+}
+
+
+@media all and (min-width:600px) {
+	#myCarousel {
+		padding-top: 50px;
+	}
+	#myCarousel h6 {
+		font-size: 2.5em;
+	}
+	#myCarousel p {
+		font-size: 1.5em;
+	}
+	.lead2 {
+		font-size: 1.25em;
+	}
+	.wellPhotos {
+		margin-top: 0;
+	}
+	.mobileButton {
+		visibility: hidden;
+	}
+	.imgTextOverlay {
+		font-size: 3em;
+	}
+	footer {
+		background-color: #708090;
+		border-top: 2px solid #708090;
+		margin-top: 25px;
+		width: 100%;
+    background-image: url(../images/photos/footerBackground.jpg);
+    background-size: 100% 100%;
+	}
+
+}
+
+
