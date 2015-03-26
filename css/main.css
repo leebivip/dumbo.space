@@ -12,6 +12,8 @@ body {
 	font-family: 'Rye', cursive;
 }
 
+
+
 /*Brand Styling*/
 .navbar-brand {
 	font-family: 'Rye', cursive;
@@ -84,6 +86,9 @@ html body .navbar .container .navbar-header .navbar-brand {
     width: 100%;
 }
 
+#myCarousel {
+	padding-top: 50px;
+}
 
 #myCarousel h6 {
 	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
@@ -91,6 +96,8 @@ html body .navbar .container .navbar-header .navbar-brand {
 
 #submit-button {
 	margin-bottom: 20px;
+	width: 100%;
+	/*this extends the button horizontally in mobile view so that it takes up the full width of the container*/
 }
 
 .featurette-image {
@@ -191,12 +198,10 @@ footer p {
 
 
 
-/* Media Queries */
+/* *********************** Media Queries ***********************  */
 
 @media all and (max-width:400px) {
-	#myCarousel {
-		padding-top: 50px;
-	}
+
 	#myCarousel h6 {
 		font-size: 1.25em;
 	}
@@ -224,18 +229,16 @@ footer p {
 	.thumbnailPhoto {
 		max-width: 75px;
 	}
+
 	.mobileButton {
 		visibility: visible;
+		width: 100%;
 		margin-top: 20px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	#submit-button {
-		width: 100%;
-		/*this extends the button horizontally in mobile view so that it takes up the full width of the container*/
-	}
 
 	footer {
 		background-color: #708090;
@@ -252,16 +255,19 @@ footer p {
 /* The following media queries are to ensure the Bootstrap carousel text is responsive. (it previously was not) */
 
 @media all and (min-width:401px) {
-	#myCarousel {
-		padding-top: 50px;
+
+	.carousel-caption {
+		visibility: hidden;
 	}
-	#myCarousel h6 {
-		font-size: 1.5em;
+
+	.carousel-h6 {
+		font-size: 1em;
 	}
+
 	#myCarousel p {
 		font-size: 1em;
 	}
-	#mobileContactButton {
+	.mobileButton {
 		visibility: hidden;
 	}
 	.imgTextOverlay {
@@ -281,20 +287,21 @@ footer p {
     background-image: none;
     background-size: 100% 100%;
 	}
-
-
 }
 
 
+
+
 @media all and (min-width:600px) {
-	#myCarousel {
-		padding-top: 50px;
+
+	.carousel-caption {
+		visibility: visible;
 	}
 	#myCarousel h6 {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	#myCarousel p {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	.lead2 {
 		font-size: 1.25em;
@@ -318,5 +325,3 @@ footer p {
 	}
 
 }
-
-
