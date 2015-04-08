@@ -292,8 +292,9 @@ footer p {
 
 
 
-@media all and (min-width:600px) {
 
+
+@media all and (min-width:600px) {
 	.carousel-caption {
 		visibility: visible;
 	}
@@ -325,3 +326,7 @@ footer p {
 	}
 
 }
+
+
+
+

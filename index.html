@@ -40,6 +40,18 @@
   </head>
 
   <body>
+
+		<!-- Facebook SDK code -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           
           <div class="container">
@@ -57,11 +69,16 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html"><!-- <span class="glyphicon glyphicon-home"></span> --> Home</a></li>
                 <li><a href="photos.html"><!-- <span class="glyphicon glyphicon-camera"></span> --> Photos</a></li>
-                <!-- <li><a href="https://dl.dropboxusercontent.com/u/28425203/DumboRoofDeck.pdf?dl=1"><span class="glyphicon glyphicon-download"></span> PDF</a></li> --><!-- File is located on Dropbox -->
+                <li><a href="https://www.facebook.com/dumbospace" target="_blank">Facebook</a></li>
                 <li><a href="contactform.html"><!-- <span class="glyphicon glyphicon-envelope"></span> --> Contact</a></li>
+                
               </ul>
             </div><!--/.nav-collapse -->
-            
+
+						<!-- <div class="fbDiv pull-right">
+							<div class="fb-share-button pull-right" style="padding-top:15px" data-href="http://dumbo.space/" data-layout="button_count"></div>
+            </div> -->
+
           </div> <!-- End container -->
 
         </div>  <!-- End Nav Bar -->
@@ -79,7 +96,6 @@
           </ol>
 
           <div class="carousel-inner">
-
 
             <div class="item active">
               <img src="images/carousel/20js-deck4.jpg" alt="Photo of the 20 Jay Street Rooftop Deck">
@@ -241,11 +257,11 @@
 
 
           <!-- FOOTER -->
+
+
           <footer>
             <center><img class="footerImage" src="images/photos/DUMBO_transparent.png" alt="Dumbo Roof Deck, Brooklyn, New York" title="Dumbo Roof Deck, Brooklyn, New York"></center>
           </footer>
-
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
