@@ -14,6 +14,7 @@ body {
 
 
 
+
 /*Brand Styling*/
 .navbar-brand {
 	font-family: 'Rye', cursive;
@@ -34,9 +35,10 @@ html body .navbar .container .navbar-header .navbar-brand {
 
 .navbar {
 	background-color: #708090;
-	/*opacity: 0.95;*/
 	border-bottom: 1px solid white;
 }
+
+
 
 .navbar .nav > li > a {
 	color: WhiteSmoke;
@@ -46,6 +48,8 @@ html body .navbar .container .navbar-header .navbar-brand {
 	.navbar .nav > li > a:hover {
 		color: #E0FFFF;
 	}
+
+
 
 
 
@@ -181,15 +185,41 @@ h1.photoHeaderText {
 
 
 /* Footer Styling */
+
+footer {
+		background-color: #708090;
+		/*border-top: 2px solid #708090;*/
+		margin-top: 25px;
+		padding-bottom: 10px;
+		width: 100%;
+		min-height: 75px;
+	}
+
 footer p {
 	text-align: center;
 }
 
+/*Footer Image*/
 .footerImage {
-	max-width: 200px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	max-width: 75px;
+	padding-top: 10px;
 }
+
+.copyright {
+	padding-top: 10px;
+	color: WhiteSmoke;
+	/*padding-bottom: 20px;*/
+	font-family: 'Rye', cursive;
+}
+
+.googleTranslate {
+	/*padding-top: 10px;*/
+	padding-bottom: 10px;
+}
+
+
+
+
 
 /* This is required to Prevent a Google Maps iframe from capturing the mouse's scrolling wheel behavior*/
 .scrolloff {
@@ -239,15 +269,10 @@ footer p {
 		margin-right: auto;
 	}
 
-
-	footer {
-		background-color: #708090;
-		border-top: 2px solid #708090;
-		margin-top: 25px;
-		width: 100%;
-    background-image: none;
-    background-size: 100% 100%;
+	.fb-share-button {
+		padding-left: 10px;
 	}
+
 
 }
 
@@ -279,14 +304,10 @@ footer p {
 		max-width: 500px;
 	}
 
-	footer {
-		background-color: #708090;
-		border-top: 2px solid #708090;
-		margin-top: 25px;
-		width: 100%;
-    background-image: none;
-    background-size: 100% 100%;
+	.fb-share-button {
+		padding-left: 10px;
 	}
+
 }
 
 
@@ -316,13 +337,9 @@ footer p {
 	.imgTextOverlay {
 		font-size: 3em;
 	}
-	footer {
-		background-color: #708090;
-		border-top: 2px solid #708090;
-		margin-top: 25px;
-		width: 100%;
-    background-image: url(../images/photos/footerBackground.jpg);
-    background-size: 100% 100%;
+
+	.fb-share-button {
+		padding-left: 0px;
 	}
 
 }

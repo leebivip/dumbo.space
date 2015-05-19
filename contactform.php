@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DUMBO Roof Deck | Contact Us!</title>
-    <meta name="description" content="DUMBO Roof Deck offers unparallelled views of the New York skyline. Rent it for your next event." /> 
-    <meta name="keywords" content="DUMBO, Brooklyn, rental, rent, events, wedding, commercial, tv, film, location scout, party, panorama, event space, roof deck, skyline, Manhattan, waterfront" />
-    <link rel="shortcut icon" href="images/icon/icon.jpg" />
-    
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-    <!-- Customized styling -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-    <!-- This is a google web font selected for this site. -->
-    <link href='http://fonts.googleapis.com/css?family=Sancreek|Rye' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-
-    <!-- This code will notify users if they are using an out-of-date browser  -->
-    <script> 
-        var $buoop = {c:2}; 
-        function $buo_f(){ 
-         var e = document.createElement("script"); 
-         e.src = "//browser-update.org/update.js"; 
-         document.body.appendChild(e);
-        };
-        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-        catch(e){window.attachEvent("onload", $buo_f)}
-    </script>
-
+    <?php
+    include ("_header.html")
+    ?>
   </head>
 
 
   <body>
+<!-- Google Analytics code -->
+<?php include_once("analyticstracking.php") ?>
+
+    <!-- Facebook SDK code -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
 
@@ -51,17 +32,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">DUMBO Roof Deck</a>
+              <a class="navbar-brand" href="index.php">DUMBO Roof Deck</a>
             </div>
 
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html"><!-- <span class="glyphicon glyphicon-home"></span> --> Home</a></li>
-                <li><a href="photos.html"><!-- <span class="glyphicon glyphicon-camera"></span> --> Photos</a></li>
-                <li><a href="https://www.facebook.com/dumbospace" target="_blank">Facebook</a></li>
-                <li class="active"><a href="contactform.html"><!-- <span class="glyphicon glyphicon-envelope"></span> --> Contact</a></li>
-                
+                <li><a href="index.php"><!-- <span class="glyphicon glyphicon-home"></span> --> Home</a></li>
+                <li><a href="photos.php"><!-- <span class="glyphicon glyphicon-camera"></span> --> Photos</a></li>
+                <li><a href="https://www.facebook.com/dumbospace" target="_blank">Like Us</a></li>
+                <li class="active"><a href="contactform.php"><!-- <span class="glyphicon glyphicon-envelope"></span> --> Contact</a></li>
               </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <div class="fb-share-button" style="padding-top:15px" data-href="http://dumbo.space/" data-layout="button_count"></div>
+                </li>
+              </ul>              
             </div><!--/.nav-collapse -->
 
           </div> <!-- End container -->
@@ -135,10 +120,10 @@
 
 
 
-        <!-- FOOTER -->
-          <footer>
-            <center><img class="footerImage" src="images/photos/DUMBO_transparent.png" alt="Dumbo Roof Deck, Brooklyn, New York" title="Dumbo Roof Deck, Brooklyn, New York"></center>
-          </footer>
+          <!-- FOOTER -->
+          <?php
+          include ("_footer.html")
+          ?>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
