@@ -74,7 +74,10 @@
 
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="photoHeaderText">Photos of our rooftop deck, office space and the Manhattan skyline!</h1>
+                    <!-- <h1 class="photoHeaderText">Photos of our rooftop deck, office space and the Manhattan skyline!</h1> -->
+                    <center>
+                        <img class="img-responsive" src="images/ribbon/Classic-Ribbon-set.png" alt="Photos of our rooftop deck, office space and the Manhattan skyline!" title="Photos of our rooftop deck, office space and the Manhattan skyline!">
+                    </center>
                 </div>
                 <div class="col-md-4"></div>
             </div>
@@ -120,56 +123,56 @@
                 
                 <div id="links">
                   <!-- Deck Photos -->
-                    <a href="images/photos/Deck1.jpg" title="Deck1" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck1.jpg" alt="Deck1">
+                    <a href="images/photos/Deck1.jpg" title="The deck includes up-close views of the Manhattan Bridge." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck1.jpg" alt="The deck includes up-close views of the Manhattan Bridge.">
                     </a>
 
-                    <a href="images/photos/Deck2.jpg" title="Deck2" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck2.jpg" alt="Deck2">
+                    <a href="images/photos/Deck2.jpg" title="The deck has two levels." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck2.jpg" alt="The deck has two levels.">
                     </a>
 
-                    <a href="images/photos/Deck3.jpg" title="Deck3" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck3.jpg" alt="Deck3">
+                    <a href="images/photos/Deck3.jpg" title="A spacious outdoor setting for any event." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck3.jpg" alt="A spacious outdoor setting for any event.">
                     </a>
 
-                    <a href="images/photos/Deck4.jpg" title="Deck4" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck4.jpg" alt="Deck4">
+                    <a href="images/photos/Deck4.jpg" title="Beautiful views from any angle." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck4.jpg" alt="Beautiful views from any angle.">
                     </a>
-                    <a href="images/photos/Deck5.jpg" title="Deck5" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck5.jpg" alt="Deck5">
+                    <a href="images/photos/Deck5.jpg" title="Beautiful views from any angle." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck5.jpg" alt="Beautiful views from any angle.">
                     </a>
-                    <a href="images/photos/Deck6.jpg" title="Deck6" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck6.jpg" alt="Deck6">
+                    <a href="images/photos/Deck6.jpg" title="Looking towards Williamsburg." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck6.jpg" alt="Looking towards Williamsburg.">
                     </a>
-                    <a href="images/photos/Deck7.jpg" title="Deck7" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck7.jpg" alt="Deck7">
+                    <a href="images/photos/Deck7.jpg" title="Beautiful views from any angle." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck7.jpg" alt="Beautiful views from any angle.">
                     </a>
-                    <a href="images/photos/Deck8.jpg" title="Deck8" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck8.jpg" alt="Deck8">
-                    </a>
-                    
-                    <a href="images/photos/Deck9.jpg" title="Deck9" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck9.jpg" alt="Deck9">
+                    <a href="images/photos/Deck8.jpg" title="A little shade." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck8.jpg" alt="A little shade.">
                     </a>
                     
-                    <a href="images/photos/Deck10.jpg" title="Deck10" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck10.jpg" alt="Deck10">
+                    <a href="images/photos/Deck9.jpg" title="Beautiful views from any angle." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck9.jpg" alt="Beautiful views from any angle.">
                     </a>
                     
-                    <a href="images/photos/Deck11.jpg" title="Deck11" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck11.jpg" alt="Deck11">
+                    <a href="images/photos/Deck10.jpg" title="Perfect for parties big and small." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck10.jpg" alt="Perfect for parties big and small.">
                     </a>
                     
-                    <a href="images/photos/Deck12.jpg" title="Deck12" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck12.jpg" alt="Deck12">
+                    <a href="images/photos/Deck11.jpg" title="A private, exclusive setting." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck11.jpg" alt="A private, exclusive setting.">
+                    </a>
+                    
+                    <a href="images/photos/Deck12.jpg" title="Taking in the view!" data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck12.jpg" alt="Taking in the view!">
                     </a>                 
 
-                    <a href="images/photos/Deck13.jpg" title="Deck13" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck13.jpg" alt="Deck13">
+                    <a href="images/photos/Deck13.jpg" title="Come party on top of New York." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck13.jpg" alt="Come party on top of New York.">
                     </a>
 
-                    <a href="images/photos/Deck14.jpg" title="Deck14" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Deck14.jpg" alt="Deck14">
+                    <a href="images/photos/Deck14.jpg" title="Cocktails and city views." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Deck14.jpg" alt="Cocktails and city views.">
                     </a>
 
                     <!-- <h1>Interior</h1>-->
@@ -178,16 +181,16 @@
                         <img class="thumbnailPhoto" src="images/thumbnails/Interior1.jpg" alt="Interior - Full Kitchen">
                     </a>
 
-                    <a href="images/photos/Interior2.jpg" title="Interior2" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Interior2.jpg" alt="Interior2">
+                    <a href="images/photos/Interior2.jpg" title="Large indoor space available." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Interior2.jpg" alt="Large indoor space available.">
                     </a>
 
-                    <a href="images/photos/Interior3.jpg" title="Interior3" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Interior1.jpg" alt="Interior3">
+                    <a href="images/photos/Interior3.jpg" title="Large indoor space available." data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Interior1.jpg" alt="Large indoor space available.">
                     </a>
 
-                    <a href="images/photos/Interior4.jpg" title="Interior4" data-gallery>
-                        <img class="thumbnailPhoto" src="images/thumbnails/Interior4.jpg" alt="Interior4">
+                    <a href="images/photos/Interior4.jpg" title="Full kitchen" data-gallery>
+                        <img class="thumbnailPhoto" src="images/thumbnails/Interior4.jpg" alt="Full kitchen">
                     </a>
 
 

@@ -183,6 +183,46 @@ h1.photoHeaderText {
 	color: WhiteSmoke;
 }
 
+/* *******************Contact Form************************** */
+#contact {
+    /*background: white;*/
+    border-radius: 10px;
+    /*margin-top: 50px;*/
+    margin-bottom: 20px;
+    opacity: 0.95;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.contact-div {
+    /*padding-left: 20px;*/
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contactForm {
+    padding-left: 20px;
+    max-width: 700px;
+}
+
+.form-control {
+    /*max-width: 450px;*/
+    max-width: 700px;
+    margin-left: 0;
+}
+
+.control-group {
+    width: 100%;
+}
+
+div.alert.alert-success {
+	max-width: 85%;
+}
+
+
 
 /* Footer Styling */
 

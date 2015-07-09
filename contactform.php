@@ -5,6 +5,10 @@
     <?php
     include ("_header.html")
     ?>
+
+
+
+    
   </head>
 
 
@@ -67,8 +71,45 @@
 
           <div class="row">
             <section class="col-md-6">
-              
-              <form name="contactform" method="post" action="send_form_email.php">
+     
+              <section id="contact">
+                <div class="contact-div">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Please enter your full name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="you@yourdomain.com" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Please provide us with the anticipated date for the rental and basic information regarding the event (e.g. film shoot, wedding, etc.)" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div id="success"></div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-md">Send</button>
+                        </div>
+
+                    </form>
+                </div>    
+              </section>
+
+<!-- Original Contact Form -->
+<!--               <form name="contactform" method="post" action="send_form_email.php">
                
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
@@ -101,7 +142,7 @@
                    <input type="submit" value="Send" id="submit-button" class="btn btn-lg btn-success"><a href="http://20JayStreet.charliegigante.com/send_form_email.php"></a>
                  </br>
                                      
-              </form>
+              </form> -->
 
             </section>
 
@@ -147,6 +188,11 @@
       });
   });
 </script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
 
     
         </div> <!-- End main container "marketing" div -->
